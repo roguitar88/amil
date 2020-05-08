@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport{
+  width: device-width;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	/* [disabled]box-sizing: border-box; */
+}
+
+
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  -moz-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  -o-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+
+
+
+body{
+	margin: 0;
+	background: none;
+	font-family: 'Helvetica Neue','Helvetica', Arial, sans-serif;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+.mainwrapper{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  position: relative;
+  margin:auto;
+}
+
+.bluetop{
+  width: 100%;
+  height: 20px;
+  position:relative;
+  background-color: #063055;
+  margin:auto;
+}
+
+.secondtop{
+  width: 100%;
+  height:auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  position:relative;;
+  background-color: #1D69AA;
+  margin:auto;
+  overflow: auto;
+  border-top: 10px solid #44474A;
+}
+
+.logo{
+  width:20%;
+  height:auto;
+  padding-top:2%;
+  padding-bottom: 2%;
+  position: relative;
+  float:left;
+  white-space: nowrap;
+}
+
+.logo span{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.logo span img{
+  width:100%;
+  height: auto;
+  margin-top:3%;
+  position:relative;
+  vertical-align: middle;
+}
+
+.nav{
+  width:60%;
+  height: auto;
+  line-height: 2;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: relative;
+  float:left;
+  line-height: 5;
+  /*text-align:center;*/
+}
+
+.nav ul {
+  display: block;
+  position: relative;
+  list-style-type: none;
+  font-size: 70%;
+  color: white;
+  /*font-weight: bold;*/
+}
+
+.nav ul li{
+	display: inline;
+	float:left;
+	margin-left:6%;
+}
+
+.nav ul li:hover{
+	/*border-bottom: 3px solid red;*/
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav ul li a:hover{
+	text-decoration: none;
+	color: #ccc;
+}
+
+.menumobile{
+  height: auto;
+  position: relative;
+  display:none;
+  color: white;
+  font-size:200%;
+  text-align: right;
+}
+
+.menumobile ul{
+  display:block;
+}
+/*
+Combinação de cores:
+#AA5E1D Marrom claro
+#22AA1D Verde claro
+#1D69AA Azul
+#A41DAA Roxo
+*/
+
+@media(max-width:600px){
+  .nav{
+    display: none;
+  }
+
+  .contato{
+    display: none;
+  }
+
+  .menumobile{
+    width:30%;
+    display: block;
+    float:right;
+    line-height:3;
+  }
+
+  .logo span img{
+    width:100px;
+    height:auto;
+    margin-top:10px;
+  }
+
+  #button{
+    cursor: pointer;
+  }
+
+  #menushow{
+    display: none;
+  }
+
+  .menumobile ul {
+    position: relative;
+    list-style-type: none;
+    font-size: 50%;
+    color: white;
+    /*font-weight: bold;*/
+  }
+
+  .menumobile ul li{
+  	display: block;
+  }
+
+  .menumobile ul li:hover{
+  	/*border-bottom: 3px solid red;*/
+  }
+
+  .menumobile ul li a{
+  	text-decoration: none;
+  	color: white;
+  }
+
+  .menumobile ul li a:hover{
+  	text-decoration: none;
+  	color: #ccc;
+  }
+
+  #textalign{
+    text-align: right;
+    color: black;
+  }
+}
+
+@media(max-width:1100px){
+  .nav{
+    width: 70%;
+  }
+
+  .nav ul li{
+  	margin-left:4%;
+  }
+
+  .contato{
+    display: none;
+    font-size: 90%;
+  }
+
+  .secondtop{
+    padding-left:5%;
+    padding-right:5%;
+  }
+}
+
+/* When the width is between 600px and 900px OR above 1100px - change the appearance of <div> */
+/*
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
+*/
+
+.contato{
+  width: 20%;
+  height: auto;
+  line-height: 2;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: relative;
+  float: left;
+  color: white;
+  line-height: 3;
+  font-size: 120%;
+}
+
+.contato a{
+  text-decoration: none;
+  color: white;
+}
+
+.contato a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.section1{
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow:auto;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 4%;
+  padding-bottom: 50px;
+  /*background: rgb(110,106,102);*/
+  background-image: linear-gradient(150deg, rgba(110,106,102,.5) 0%, rgba(110,106,102,.75) 100%), url("../images/familiafeliz.jpg");
+  /*background-position:  0 20%*/
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1_1{
+  color: white;
+}
+
+.section2{
+  width:100%;
+  height:auto;
+  position: relative;
+  font-weight: bold;
+  overflow:auto;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  /*background: rgb(110,106,102);*/
+  background-image: url("../images/medicaboa.png");
+  background-position:  0 5%
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 43%;
+}
+
+.section3{
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow:auto;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  background-color: #1D69AA;
+}
+
+.section4{
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow:auto;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 4%;
+  padding-bottom: 150px;
+  border-top: 10px solid #44474A;
+  border-bottom: 15px solid #000;
+  /*background-image: linear-gradient(150deg, rgba(110,106,102,.5) 0%, rgba(110,106,102,.75) 100%), url("../images/5c567fb0b1ea46d4b61c51e2b89a6361.webp");*/
+  background-image: url("../images/5c567fb0b1ea46d4b61c51e2b89a6361.webp");
+  background-position:  0 20%
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section5{
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow:auto;
+  padding-left:10%;
+  padding-right:100px;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.section6{
+  width:100%;
+  height:auto;
+  position: relative;
+  overflow:auto;
+}
+
+textarea{
+  resize: none;
+}
+
+#textalign{
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: black;  //#AA5E1D
+  text-align: center;
+  font-size:100%;
+  color: white;
+  padding: 5px;
+}
+
+.footer a, .footer a:hover{
+  color:white;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.transparency{
+  background-color:rgba(255,255,255,.75);
+}
