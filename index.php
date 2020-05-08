@@ -51,7 +51,7 @@ ini_set('display_errors', 1);
 				<div class="logo">
 					<span><a href="https://www.amil.todosplanosdesaude.com.br/"><img src="images/screen.webp" /></a></span>
 				</div>
-				<div class="nav trigger_2">
+				<div class="nav">
 					<ul>
 						<li><a href="#inicio">INÍCIO</a></li>
 						<li><a href="#aempresa">A EMPRESA</a></li>
@@ -119,7 +119,7 @@ ini_set('display_errors', 1);
 									<div class="form-group">
 										<textarea cols="20" rows="5" class="form-control transparency" placeholder="Informe a quantidade de pessoas e as idades" required></textarea>
 									</div>
-									<input class="btn btn-primary" name="info" type="submit" value="Enviar" />
+									<input class="btn btn-primary trigger_2" name="info" type="submit" value="Enviar" />
 								</div>
 							<div>
 						</form>
@@ -333,7 +333,7 @@ ini_set('display_errors', 1);
 		</section>
 
 		<section class="section6">
-			<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Rua%20do%20riachuelo%2C%20309%2C%20recife&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://speed-test-internet.com">speed-test-internet.com</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div>
+			<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Planos%20de%20sa%C3%BAdes%20Bradesco%20Amil%2C%20Rua%20do%20Riachuelo%2C%20Boa%20Vista&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div>
 			<!-- Gerador de embedder do Google Maps: https://www.embedgooglemap.net/ -->
 		</section>
 	</main>

@@ -207,6 +207,10 @@ Combinação de cores:
     text-align: right;
     color: black;
   }
+
+  .section2{
+    background-size:auto 100%;
+  }
 }
 
 @media(max-width:1100px){
@@ -296,10 +300,9 @@ Combinação de cores:
   padding-top: 6%;
   padding-bottom: 5%;
   /*background: rgb(110,106,102);*/
+  background-repeat: no-repeat;
   background-image: url("../images/medicaboa.png");
   background-position:  0 5%
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: 43%;
 }
 
